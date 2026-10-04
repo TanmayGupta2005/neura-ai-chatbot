@@ -1,0 +1,123 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hello",
+        "hi",
+        "hey",
+        "good morning",
+        "good afternoon",
+        "good evening",
+        "hi there",
+        "hey there"
+      ],
+      "responses": [
+        "Hello! How can I help you?",
+        "Hi! What would you like to know?",
+        "Hey! How can I assist you today?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "bye",
+        "goodbye",
+        "see you",
+        "see you later",
+        "talk to you later",
+        "I have to go"
+      ],
+      "responses": [
+        "Goodbye!",
+        "See you later!",
+        "Have a great day!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "thanks",
+        "thank you",
+        "thanks a lot",
+        "thank you so much",
+        "that helped",
+        "great thanks"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Happy to help!",
+        "Anytime!"
+      ]
+    },
+    {
+      "tag": "capabilities",
+      "patterns": [
+        "what can you do",
+        "what are your capabilities",
+        "how can you help me",
+        "what do you know",
+        "help me",
+        "what can you help with"
+      ],
+      "responses": [
+        "I can answer questions, classify your requests, and help you with programming and learning.",
+        "I can help with programming, education, general questions, and more."
+      ]
+    },
+    {
+      "tag": "programming",
+      "patterns": [
+        "what is javascript",
+        "explain python",
+        "what is react",
+        "what is node js",
+        "what is express",
+        "help me with programming",
+        "how do I learn coding",
+        "explain html",
+        "explain css",
+        "what is mongodb",
+        "help me with javascript",
+        "help me with python"
+      ],
+      "responses": [
+        "I detected a programming question.",
+        "This looks like a programming-related question."
+      ]
+    },
+    {
+      "tag": "education",
+      "patterns": [
+        "help me study",
+        "explain this topic",
+        "help with my studies",
+        "how should I prepare for exams",
+        "explain this concept",
+        "I have an exam",
+        "help me prepare",
+        "teach me something"
+      ],
+      "responses": [
+        "Sure! Tell me the topic you want to study.",
+        "I'd be happy to help you prepare."
+      ]
+    },
+    {
+      "tag": "fitness",
+      "patterns": [
+        "how can I lose weight",
+        "help me with fitness",
+        "give me a workout",
+        "how should I exercise",
+        "I want to get fit",
+        "help me with exercise",
+        "what workout should I do"
+      ],
+      "responses": [
+        "I detected a fitness-related question.",
+        "Let's work on your fitness question."
+      ]
+    }
+  ]
+}

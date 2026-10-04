@@ -1,0 +1,48 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Machine learning models
+models/
+*.pkl
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+# Hugging Face / local model cache
+hf-models/
+huggingface-cache/
+.cache/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Build files
+dist/
+build/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Local temporary files
+tmp/
+temp/
+dataset/
